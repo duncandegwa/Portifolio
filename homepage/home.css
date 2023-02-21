@@ -1,30 +1,68 @@
-ul.navbar{
-    list-style-type: none;
+body{
+    background-color: rgba(133, 156, 140, 0.301);
+}
+div.aboutme{
+    margin-top: 80px;
+    border: 2px solid green;
+    max-width: 100%;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: gray;
     
-    
-   
 }
-li{
-    float: right;
-    margin-left: 10px;
-    padding: 20px;
-}
-li a{
-    text-decoration: none;
-}
-div.navb{
-    width: 100%;
-    height: 100px;
-    background: linear-gradient(to right, green,gray);
-}
-h2{
-    font-size: 20px;
-    color: rgb(219, 114, 15);
-    font-style: normal;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.avtr{
+    margin: 20px;
+    border-radius: 125px;
     float: left;
+}
+.me{
+    font-size: 25px;
+    color: white;
+}
+.highlight{
+    color: rgb(227, 252, 10);
+}
+.skill{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    
+    
     
 }
-span{
-    color: brown;
+h2.skl{
+    text-align: center;
+    margin: 20px 50% 5px 50%;
+}
+.frd{
+    width: 30%;
+    height: 180px;
+    background-color: grey;
+    font-size: 20px;
+    margin: 20px;
+}
+.ft{
+    text-align: center;
+    color: gold;
+    margin-bottom: 0;
+}
+.ftl{
+    margin-left: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.footer{
+   
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, black,rgb(11, 184, 40));
+}
+#ftr{
+    color: gold;
+    text-align: center;
+    
 }
