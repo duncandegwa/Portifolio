@@ -108,10 +108,40 @@ fieldset{
 }
 .footer{
     
-    background-color: yellowgreen;
-    
     width: 100%;
-    height: 100px;
-    
+    position: absolute;
+    left: 0;
+    display: flex;
+    right: 0;
+    flex-wrap: wrap;
+    background: linear-gradient(to right, black,gray,rgb(10, 10, 10));
 
+}
+
+.directions{
+    color: rgb(65, 233, 14);
+    padding: 20px;
+   font-size: 20px;
+   margin: auto;
+}
+.directions a{
+    text-decoration: none;
+    color: rgb(223, 184, 13);
+
+}
+.directions a:hover{
+    color: brown;
+}
+.footr{
+   
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+#ftrl{
+    color: antiquewhite;
+    text-align: center;
+}
+.cnct {
+    border-bottom: 3px solid burlywood;
 }

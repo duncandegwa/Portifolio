@@ -6,6 +6,7 @@ div.work{
     background: linear-gradient(to right, rgb(17, 17, 17),gray);
     border-radius: 8px;
     margin-bottom: 10px;
+    
 
 }
 .wk{
@@ -28,7 +29,7 @@ p.kw{
 .work1{
     height: 300px;
     width: 300px;
-    
+   
     margin-top: 15px;
     background-color: gray;
     border-radius: 10px;
@@ -65,12 +66,14 @@ button:hover{
     background: goldenrod;
 }
 
-div.mguu{
-    
+
+.footer{
+   
     width: 100%;
-    height: 50px;
-    color: gold;
-    text-align: center;
+    background: linear-gradient(to right, grey, black,rgb(57, 4, 100));
     overflow: hidden;
-    background: linear-gradient(to right, gray,green);
+}
+#ftr{
+    color: antiquewhite;
+    text-align: center;
 }
